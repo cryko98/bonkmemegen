@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('https://insidebitcoins.com/wp-content/uploads/2024/04/BONK-Feature-Image.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px #cc5500; /* sötét narancs árnyék */
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.ca-box {
+  background-color: rgba(255, 165, 0, 0.8); /* narancssárga doboz */
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #cc5500; /* árnyék itt is! */
+}
+
+#twitter-icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+
+#twitter-icon:hover {
+  transform: scale(1.1);
+}
+
+#enter-button, #random-meme-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #ff9900;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-shadow: 2px 2px 4px #cc5500; /* gomb szöveg is kap árnyékot */
+}
+
+#enter-button:hover, #random-meme-button:hover {
+  background-color: #ff7700;
+}
+
+#meme-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 3px solid white;
+  border-radius: 12px;
+}
